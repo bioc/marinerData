@@ -187,3 +187,63 @@ NULL
 #' bedpeFile
 #'
 NULL
+
+#' Example NHA9 (FS) Hi-C data in .mcool format
+#'
+#' Subsampled Hi-C in HEK cells expressing the
+#' NHA9 fusion with an F to S mutated IDR,
+#' converted to `.mcool`.
+#'
+#' @name LEUK_HEK_PJA27_inter_30.mcool
+#' @returns Downloads and caches a `.mcool` file.
+#' @examples
+#'
+#' mcoolFile <- LEUK_HEK_PJA27_inter_30.mcool()
+#' mcoolFile
+#'
+NULL
+
+#' Example NHA9 (WT) Hi-C data in .mcool format
+#'
+#' Subsampled Hi-C in HEK cells expressing the
+#' NHA9 fusion with a Wildtype IDR,
+#' converted to `.mcool`.
+#'
+#' @name LEUK_HEK_PJA30_inter_30.mcool
+#' @returns Downloads and caches a `.mcool` file.
+#' @examples
+#'
+#' mcoolFile <- LEUK_HEK_PJA30_inter_30.mcool()
+#' mcoolFile
+#'
+NULL
+
+#' Example NHA9 (FS) Hi-C data in .cool format
+#'
+#' Subsampled Hi-C in HEK cells expressing the
+#' NHA9 fusion with an F to S mutated IDR,
+#' converted to `.cool` at 2.5Mb resolution.
+#'
+#' @name LEUK_HEK_PJA27_inter_30_2500Kb.cool
+#' @returns Downloads and caches a `.cool` file.
+#' @examples
+#'
+#' coolFile <- LEUK_HEK_PJA27_inter_30_2500Kb.cool()
+#' coolFile
+#'
+NULL
+
+#' Example NHA9 (WT) Hi-C data in .cool format
+#'
+#' Subsampled Hi-C in HEK cells expressing the
+#' NHA9 fusion with a Wildtype IDR,
+#' converted to `.cool` at 2.5Mb resolution.
+#'
+#' @name LEUK_HEK_PJA30_inter_30_2500Kb.cool
+#' @returns Downloads and caches a `.cool` file.
+#' @examples
+#'
+#' coolFile <- LEUK_HEK_PJA30_inter_30_2500Kb.cool()
+#' coolFile
+#'
+NULL
